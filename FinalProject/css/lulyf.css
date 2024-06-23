@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100vw;
+}
+
+.image-container h1 {
+    color: #D3E10E;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+}
+
+.container {
+    width: 50vw;
+    margin-top: 20px;
+    /* Add some margin to separate the form from the image */
+    text-align: start;
+    border-style: none;
+    
+}
+
+button {
+    background-color: #D3E10E !important;
+    color: #011560 !important;
+}

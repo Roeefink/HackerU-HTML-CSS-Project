@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.container{
+    background: linear-gradient(to bottom, #281EFF, #2DFF8C);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.container .post{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 50vw;
+    text-align: center;
+    margin-top: 15rem;
+}
+.container .post h1{
+    font-family: "Satisfy", cursive;
+    font-size: 7em;
+}
+.form-wrap {
+    display: flex;
+    justify-content: center;
+    /* Center the form elements horizontally */
+    gap: 1rem;
+    /* Add space between form elements */
+}
+
+.form-wrap form {
+    display: flex;
+    flex-direction: row;
+    /* Ensure the form elements are in a row */
+    align-items: center;
+    /* Align the form elements vertically */
+}
+.form-wrap label,
+.form-wrap input,
+.form-wrap button {
+    margin-right: 0.5rem;
+    /* Added some space between form elements */
+}
+
+.form-wrap label {
+    margin-bottom: 0;
+    /* Remove bottom margin for labels */
+}
+
+.form-wrap input {
+    padding: 0.5rem;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1em;
+    color: white;
+    font-size: 1em;
+}
+
+.form-wrap button {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    /* White background for the button */
+    color: black;
+    /* Button text color */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+    border-radius: 2em;
+    font-size: 1.3em;
+}
+
+.form-wrap button:hover {
+    background-color: #2DFF8C;
+    /* Change background on hover */
+    color: #fff;
+    /* Change text color on hover */
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Preview</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .header {
+        background-color: #13e8f163;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .header h1 {
+        font-weight: 900;
+      }
+      .header p {
+        padding: 2em 25em;
+      }
+      .button-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        margin-top: 1em;
+      }
+      button {
+        background-color: #1ae0ec;
+        border-radius: 4em;
+        height: 3vh;
+        width: 10vw;
+        border: none;
+        cursor: pointer;
+      }
+      .small-images {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        /* Space between small images */
+        margin-bottom: 10px;
+      }
+      .small-images img {
+        width: 4.5vw;
+        /* Adjust size as needed */
+        height: 8vh;
+        /* Adjust size as needed */
+      }
+      .image-container {
+        height: 60vh;
+        width: 70vw;
+        overflow: hidden;
+        margin: 0 auto;
+      }
+      .image-container img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .last-footer {
+        color: #1ae0ec;
+        background-color: black;
+        height: 4vh;
+        width: 100vw;
+        text-align: left;
+        position: fixed;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Let us lead you forward</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione
+        praesentium quis voluptatum error nesciunt quibusdam adipisci molestiae
+        nihil! Asperiores ut doloribus, illo optio alias dolorum unde. Quae
+        officia aliquam nam suscipit iusto distinctio nihil magni, obcaecati
+        esse maxime reiciendis iure nulla voluptates voluptatibus dolores atque.
+        Ullam nisi architecto cumque!
+      </p>
+      <div class="button-wrapper">
+        <a href="../html/leadForward.html">
+          <button class="view-project">View project</button>
+        </a>
+        <a href="#">
+          <button class="download-project">Download project</button>
+        </a>
+      </div>
+    </div>
+    <div class="small-images">
+      <img src="../images/img-HTML.png" alt="html" />
+      <img src="../images/img-CSS.png" alt="css" />
+      <img src="../images/img-SASS.png" alt="sass" />
+      <img src="../images/img-Bootstrap.png" alt="bootstrap" />
+    </div>
+    <div class="image-container">
+      <img src="../images/letUsLeadYou.png" alt="here and now" />
+    </div>
+    <div class="last-footer">
+      <p>Roee Finkelstein</p>
+    </div>
+  </body>
+</html>

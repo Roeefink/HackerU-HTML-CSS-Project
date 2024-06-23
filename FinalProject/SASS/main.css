@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+aside {
+  width: 23vw;
+  height: 50vh;
+  background-color: rgba(26, 26, 26, 0.831372549);
+  opacity: 0.8;
+  position: absolute;
+  right: 10rem;
+  top: 10rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+aside h1 {
+  font-weight: 900;
+}
+aside h1, aside p {
+  padding-bottom: 20px;
+}
+aside form input {
+  font-size: x-large;
+}
+aside form input, aside form label {
+  margin-bottom: 1em;
+}
+aside form button {
+  color: white;
+  background-color: #D31C75;
+  margin: 1.5em;
+  width: 10vw;
+  height: 4vh;
+  font-family: "Heebo", sans-serif;
+  font-size: larger;
+  border-style: none;
+}/*# sourceMappingURL=main.css.map */
